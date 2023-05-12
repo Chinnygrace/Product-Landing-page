@@ -5,66 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css"> <script src="https://kit.fontawesome.com/b202a3c4a2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div id="page">
+    <div class="page">
     <header id="header">
-<div class="logo">
- <img id="header-img" alt="logo" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Product product-landing-page-logo">
-</div>
- <nav id="nav-bar">
- <ul>
+      <div class="logo">
+     <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Product-landing-page-logo" /> 
+    </div>
+    <nav id="nav-bar" class="nav-bar">
+     <ul>
     <li><a class="nav-link" href="#features">Features</a></li>
     <li><a class="nav-link" href="#howitworks">How It Works</a></li>
     <li><a class="nav-link" href="#pricing">Pricing</a></li>
-  </ul>
-  </nav>
-   </header>
-   <section id="main">
-     <h2>Handcrafted, home-made masterpieces</h2>
-     <form id="form" action="https://www.freecodecamp.com/email-submit">
-     <input type="email" id="email" placeholder="Enter your email address" required />
-     <input type="submit" id="submit" value="GET STARTED"/>
-     </form>
-   </section>
+     </ul> 
+    </nav>
+  </header> 
+
+   <div class="box">
+   <section id="main" class="main">
+    <h2>Handcrafted, home-made masterpieces</h2>
+     <form class="form" id="form" action="https://www.freecodecamp.com/email-submit">
+      <input type="email" id="email" placeholder="Enter your email address" required />
+       <input type="submit" id="submit" value="GET STARTED"/>
+         </form>
+        </section>
   
-   <div class="container">
-    <div id="features">
-      <div class="grid">
-        <div class="icon">
-          <i class="fa-solid fa-fire-flame-curved"></i>
+<div class="container">
+  <div class="features" id="features">
+   <div class="grid">
+    <div class="icon">
+      <i class="fa-solid fa-fire-flame-curved"></i>
         </div>
-        <div class="text-one">
-     <h2>Premium Materials</h2>
-    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-      </div> </div>  
-
-      <div class="grid">
-      <div class="icon">
-      <i class="fa-solid fa-truck"></i>
-      </div>
       <div class="text">
+    <h2>Premium Materials</h2>
+   <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+  </div> 
+ </div>  
+
+<div class="grid">
+ <div class="icon">
+   <i class="fa-solid fa-truck"></i>
+      </div>
+     <div class="text">
     <h2>Fast Shipping</h2>
-  <p>We make sure you receive your trombone as soon as we finished making it. We also provide free returns if you are not satisfied.</p>
-      </div> </div> 
+   <p>We make sure you receive your trombone as soon as we finished making it. We also provide free returns if you are not satisfied.</p>
+  </div> 
+ </div> 
 
-      <div class="grid">
-      <div class="icon">
-      <i class="fa-solid fa-battery-full"></i>
-      </div>
+<div class="grid">
+  <div class="icon">
+    <i class="fa-solid fa-battery-full"></i>
+     </div>
       <div class="text">
-<h2>Quality Assurance</h2>
-<p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
-</div> </div>
+    <h2>Quality Assurance</h2>
+   <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+  </div> 
+</div>
 
-<div id="howitworks">
-  <iframe id="video" height="300" width="550" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen type="video/mp4" >
+<div id="howitworks" class="howitworks">
+  <iframe id="video" height="300" width="550" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" style="border:none" allowfullscreen title="video/mp4" >
   </iframe>
 </div>
 
 
-<div id="pricing">
+<div class="pricing" id="pricing">
   <div class="product-price">
     <div class="top">TENOR TROMBONE</div>
     <h2>$600</h2>
@@ -98,7 +106,8 @@
   </ol>
   <button class="submit">SELECT</button>
 </div>
-</div> </div> 
+</div> 
+</div> 
 
 <footer id="footer">
   <ul>
@@ -108,8 +117,9 @@
   </ul>
   <span>Copyright 2016, Original Trombones</span>
 </footer>
-  
-</div> 
+  </div>
+ </div> 
+</div>
 </body>
 
 </html>
