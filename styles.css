@@ -261,9 +261,7 @@ ol > li{
     } 
 
 @media only screen and (min-width: 481px) and (max-width:769px) {
-    body {
-        background-color: red;
-        } 
+   
     .nav-bar ul {
         display: flex;
         justify-content: space-around;
@@ -386,9 +384,7 @@ ol > li{
         }
     } 
 @media only screen and (min-width: 200px) and (max-width: 480px) { 
-    body {
-        background-color: aqua;
-         }
+    
     .header {
         display: flex;
         justify-content: space-between;
